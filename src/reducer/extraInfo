@@ -1,0 +1,15 @@
+//syntax for default reducer setup
+
+// const initialValue = {
+//     cart:0,
+// }
+
+// const anotherReducer =(state=initialValue,action)=>{
+
+// }
+
+
+//actionCreators
+// they are the functions that returns the action object to be dispatch
+// instead of manually dispatching actions we can use action creators which help to create one
+// refrain for having bugs
