@@ -15,7 +15,11 @@ export const initialStore = {
   total: 107,
   amount: 5,
 };
-const store = createStore(reducer, initialStore);
+const store = createStore(
+  reducer,
+  initialStore,
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
 
 function App() {
   // cart setup
